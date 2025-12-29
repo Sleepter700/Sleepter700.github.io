@@ -1,11 +1,39 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Mi Portafolio de Arquitectura">
+	<main>
+		<header>
+			<h1>Sleepter700 | <span class="text-gradient">Arquitectura</span></h1>
+			<p>Diseño, Modelado 3D y Visualización</p>
+		</header>
+
+		<section class="grid">
+			<div class="card">
+				<img src="/proyecto1.jpg" alt="Proyecto 1" />
+				<h3>Residencial Moderna</h3>
+			</div>
+			<div class="card">
+				<img src="/proyecto2.jpg" alt="Proyecto 2" />
+				<h3>Diseño de Interiores</h3>
+			</div>
+			<div class="card">
+				<img src="/proyecto3.jpg" alt="Proyecto 3" />
+				<h3>Urbanismo Sostenible</h3>
+			</div>
+		</section>
+	</main>
 </Layout>
+
+<style>
+	main { margin: auto; padding: 2rem; max-width: 1000px; color: white; font-family: sans-serif; }
+	header { text-align: center; margin-bottom: 4rem; }
+	h1 { font-size: 3rem; font-weight: 700; }
+	.text-gradient { background-image: linear-gradient(45deg, #4f39fa, #da62c4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+	.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+	.card { border: 1px solid #333; border-radius: 8px; overflow: hidden; background: #13151a; transition: transform 0.2s; }
+	.card:hover { transform: scale(1.02); }
+	.card img { width: 100%; height: 200px; object-fit: cover; }
+	.card h3 { padding: 1rem; margin: 0; }
+</style>
