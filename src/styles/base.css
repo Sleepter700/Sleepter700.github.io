@@ -18,7 +18,9 @@ body > main:not(:has(section.cta-section)) + footer {
 
 /* If current page has no CTA section, remove top padding from appropriate footers */
 body > main:not(:has(section.cta-section)) + footer .has-footer-padding {
-  @apply !pt-0;
+  /* Use direct CSS with !important to ensure padding override
+     because @apply doesn't reliably accept the '!' modifier */
+  padding-top: 0 !important;
 }
 
 h1,
