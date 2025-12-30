@@ -46,5 +46,22 @@
       "locallyHosted": true,
       "__comment": "set locallyHosted: true if you want to download google fonts and hosted them locally automatically"
     }
+    ,
+    {
+      "name": "Montserrat",
+      "src": [
+        {
+          "style": "italic",
+          "weight": "800"
+        }
+      ],
+      "preload": false,
+      "display": "swap",
+      "cssVariable": "font-header",
+      "provider": "google-fonts",
+      "fallback": "sans-serif",
+      "locallyHosted": true,
+      "__comment": "Header font: Montserrat 700 italic"
+    }
   ]
 }
