@@ -1,8 +1,8 @@
 # Site Configuration
 [site]
-  title            = "Folex" # Shared title for SEO and OpenGraph
+  title            = "Sleepter" # Shared title for SEO and OpenGraph
   description      = "A highly customizable creative agency business theme built with Tailwind CSS and Astro Js" # Shared description for SEO and OpenGraph
-  tagline          = "Creative Agency & Personal Portfolio Business Theme"
+  tagline          = "Proyectos Publicitarios y Arquitectura"
   taglineSeparator = "" # default is " - " 
   baseUrl          = "https://folex-lite-astro.vercel.app/" # Base URL for the site and used in OpenGraph meta tags.
   logo             = "/src/assets/images/logo.svg" # Path to the site's logo (usar assets para OptimizedImage)
