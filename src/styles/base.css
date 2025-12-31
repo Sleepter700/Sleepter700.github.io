@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  @apply bg-body font-primary text-text-default leading-body font-normal;
+  @apply bg-body text-text-default leading-body font-normal;
+  font-family: var(--font-primary);
 }
 
 /* Global Section Spacing */
@@ -29,7 +30,10 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-secondary text-dark leading-tight font-semibold tracking-wide break-words;
+  @apply text-dark leading-tight font-semibold tracking-wide;
+  font-family: var(--font-secondary);
+  overflow-wrap: break-word;
+  word-break: normal;
 
   br {
     @apply max-md:hidden;
