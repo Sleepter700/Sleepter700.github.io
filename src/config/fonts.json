@@ -19,23 +19,11 @@
       "__comment": "set locallyHosted: true if you want to download google fonts and hosted them locally automatically"
     },
     {
-      "name": "Unbounded",
+      "name": "Montserrat",
       "src": [
         {
           "style": "normal",
-          "weight": "400"
-        },
-        {
-          "style": "normal",
-          "weight": "500"
-        },
-        {
-          "style": "normal",
-          "weight": "600"
-        },
-        {
-          "style": "normal",
-          "weight": "700"
+          "weight": "800"
         }
       ],
       "preload": false,
