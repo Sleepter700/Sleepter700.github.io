@@ -1,0 +1,21 @@
+{
+  "common": {
+    "viewDetails": "Ver detalles",
+    "learnMoreAbout": "Más información",
+    "paginationPrevious": "Anterior",
+    "paginationNext": "Siguiente",
+    "paginationPortfolioPrev": "Portfolio anterior",
+    "paginationPortfolioNext": "Siguiente portfolio"
+  },
+  "headerOffcanvas": {
+    "description": "Una agencia digital que ayuda a las empresas a crear experiencias inmersivas.",
+    "buttonLabel": "Habla con nosotros"
+  },
+  "navigation": {
+    "buttonLabel": "Comenzar"
+  },
+  "footer": {
+    "copyright": "Derechos de Autor © {{ year }} por Sleepter / Creado con Astro (https://astro.build/)",
+    "_comment": "Le agradeceríamos que conservara los derechos de autor del tema. ¡Gracias por apoyar a Getastrothemes!"
+  }
+}
