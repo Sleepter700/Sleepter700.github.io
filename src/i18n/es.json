@@ -15,7 +15,7 @@
     "buttonLabel": "Comenzar"
   },
   "footer": {
-    "copyright": "Derechos de Autor © {{ year }} por Sleepter / Creado con Astro (https://astro.build/)",
+    "copyright": "Derechos de Autor © {{ year }} por Sleepter / Creado con [Astro](https://astro.build/)",
     "_comment": "Le agradeceríamos que conservara los derechos de autor del tema. ¡Gracias por apoyar a Getastrothemes!"
   }
 }
