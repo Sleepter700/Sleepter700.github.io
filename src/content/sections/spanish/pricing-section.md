@@ -7,7 +7,7 @@ list:
     name: "Personal"
     description: "Nos importa su éxito. Para nosotros, las relaciones reales se sienten reales"
     price:
-      prependValue: "$"
+      prependValue: "S/"
       value: "50"
       appendValue: "/mes"
     features:
@@ -26,7 +26,7 @@ list:
     name: "Startup"
     description: "Nos importa su éxito. Para nosotros, las relaciones reales se sienten reales"
     price:
-      prependValue: "$"
+      prependValue: "S/"
       value: "100"
       appendValue: "/mes"
     features:
@@ -44,7 +44,7 @@ list:
     name: "Corporativo"
     description: "Nos importa su éxito. Para nosotros, las relaciones reales se sienten reales"
     price:
-      prependValue: "$"
+      prependValue: "S/"
       value: "180"
       appendValue: "/mes"
     features:
