@@ -22,7 +22,7 @@
   @apply relative z-10 overflow-hidden delay-100;
 
   .hover-bg {
-    @apply translate-centered absolute start-[var(--creative-hover-left)] top-[var(--creative-hover-top)] -z-10 block h-0 w-0 rounded-full;
+    @apply translate-centered absolute start-(--creative-hover-left) top-(--creative-hover-top) -z-10 block h-0 w-0 rounded-full;
     transition:
       width 0.6s ease,
       height 0.6s ease;

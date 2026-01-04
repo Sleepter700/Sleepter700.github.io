@@ -11,6 +11,7 @@
     "isolatedModules": true,
     "incremental": true,
     "allowSyntheticDefaultImports": true,
+    "verbatimModuleSyntax": false,
     "paths": {
       "@/components/*": ["./src/layouts/components/*"],
       "@/shortcodes/*": ["./src/layouts/shortcodes/*"],
@@ -19,5 +20,5 @@
     }
   },
   "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist", "public"]
+  "exclude": ["dist", "public", "node_modules"]
 }
