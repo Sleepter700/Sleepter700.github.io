@@ -20,4 +20,26 @@ A través del uso de estas plantillas y el framework, he consolidado conocimient
 1.  **Arquitectura de Islas:** Entender cómo hidratar componentes interactivos de forma selectiva.
 2.  **Content Collections:** Gestión de datos estructurados (Markdown/YAML) para que los clientes puedan actualizar sus blogs sin tocar el código.
 3.  **Optimización de Assets:** Uso del componente `<Image />` de Astro para el manejo automático de formatos WebP y carga perezosa.
-4.  **Despliegue Continuo:** Flujos de trabajo ef
+4.  **Despliegue Continuo:** Flujos de trabajo eficientes integrando GitHub con Vercel/Netlify.
+
+---
+
+## 🛠️ Stack Tecnológico
+* **Framework:** [Astro](https://astro.build/)
+* **Estilos:** Tailwind CSS
+* **Tipografía:** Fontsource
+* **Iconos:** Lucide Icons / Astro-Icon
+
+---
+
+## 📁 Estructura de las Plantillas
+Nuestras plantillas están diseñadas para ser "Plug & Play":
+
+* `/src/layouts/`: Estructuras base reutilizables.
+* `/src/components/`: UI Atómica (Botones, Cards, Navbars).
+* `/src/content/`: Directorios listos para portafolios y servicios.
+* `/public/`: Optimización de recursos estáticos.
+
+---
+
+## Menos JavaScript, más resultados.
