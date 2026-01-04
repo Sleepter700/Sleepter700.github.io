@@ -8,7 +8,7 @@ list:
     description: "We care about their success. For us real relationships feel real"
     price:
       prependValue: "$"
-      value: "180"
+      value: "50"
       appendValue: "/mo"
     features:
       - WEB & MOBILE
@@ -30,7 +30,7 @@ list:
     description: "We care about their success. For us real relationships feel real"
     price:
       prependValue: "$"
-      value: "180"
+      value: "100"
       appendValue: "/mo"
     features:
       - WEB & MOBILE

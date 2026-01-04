@@ -55,7 +55,7 @@ const fontSize = titleSize ? fontSizeMap[titleSize] : fontSizeMap["display-1"];
             class:list={[
               "text-inherit",
               fontSize,
-              "block leading-tight font-bold break-words text-inherit",
+              "block leading-tight font-bold wrap-break-word text-inherit",
             ]}
             set:html={markdownify(title)}
           />

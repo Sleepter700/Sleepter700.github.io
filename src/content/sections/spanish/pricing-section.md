@@ -8,7 +8,7 @@ list:
     description: "Nos importa su éxito. Para nosotros, las relaciones reales se sienten reales"
     price:
       prependValue: "$"
-      value: "180"
+      value: "50"
       appendValue: "/mes"
     features:
       - WEB Y MÓVIL
@@ -27,7 +27,7 @@ list:
     description: "Nos importa su éxito. Para nosotros, las relaciones reales se sienten reales"
     price:
       prependValue: "$"
-      value: "180"
+      value: "100"
       appendValue: "/mes"
     features:
       - WEB Y MÓVIL
