@@ -16,9 +16,9 @@ list:
   - alt: "texto alternativo de ejemplo"
     src: "/images/clients/6.svg"
   - alt: "texto alternativo de ejemplo"
-    src: "/images/clients/1.svg"
+    src: "/images/clients/7.svg"
   - alt: "texto alternativo de ejemplo"
-    src: "/images/clients/2.svg"
+    src: "/images/clients/8.svg"
 
 options:
   appearance: "light" # light (claro) / dark (oscuro)
