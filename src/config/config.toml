@@ -86,8 +86,8 @@
 
   # Global Contact Information
   [settings.contactInfo]
-    address = "Santa Rosa - Ate, Lima <br /> Lima 15023, Perú"
-    email   = "[VERTICE.CONECTA@GMAIL.COM](mailto:vertice.conecta@mail.com)"
+    address = "Santa Rosa - Ate, Lima <br /> | Lima 15023, Perú"
+    email   = "[sleepter700](mailto:sleepter700@mail.com)"
     phone   = "[+51 937 018 960](tel:+51937018960)"
 
   # Header Offcanvas Configuration
