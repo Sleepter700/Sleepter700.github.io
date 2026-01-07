@@ -5,7 +5,7 @@ title: ""
 list:
   - enable: true
     name: "Consultoría & Diagnóstico"
-    description: "Análisis de marca, revisión de UX para su web actual o factibilidad arquitectónica."
+    description: "Análisis de marca, revisión de cartelería y publicidad para su web actual o local comercial arquitectónica."
     price:
       prependValue: "S/"
       value: "0"
