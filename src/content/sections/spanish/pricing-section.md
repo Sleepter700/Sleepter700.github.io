@@ -42,7 +42,7 @@ list:
     description: "Soporte Multipropósito + Gestión de Marketing."
     price:
       prependValue: "S/"
-      value: "1600*"
+      value: "2000*"
       appendValue: "/mes"
     features:
       - Mantenimiento mensual de web y hosting.
